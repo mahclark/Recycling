@@ -60,6 +60,6 @@ public class Location {
     }
 
     public double getDistanceTo(Location loc) {
-        return Math.sqrt(Math.pow(loc.longitude - longitude, 2) + Math.pow(loc.latitude, latitude));
+        return Math.sqrt(Math.pow(loc.longitude - longitude, 2) + Math.pow(loc.latitude - latitude, 2));
     }
 }

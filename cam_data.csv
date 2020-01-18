@@ -1,3 +1,29 @@
-﻿Name,Long,Lat,Cardboard,Cans,Aerosol,Foil,Glass,Paper,Cartons,Plastic bottles,Plastic bags
-Abbey Road,52.2109569,0.1363203,1,1,1,1,1,1,1,1,1
-Adam and Eve St,52.2051675,0.130899,1,1,1,1,1,1,1,1,1
+﻿Name,Long,Lat,Cardboard,Cans,Aerosol,Foil,Glass,Paper,Cartons,Plastic bottles,Plastic bags,Batteries,Light Bulbs,Textiles,Shoes,Books,Tapes & discs,Small electronics
+Abbey Road,52.2109569,0.1363203,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0
+Adam and Eve St,52.2051675,0.130899,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0
+Arbury Court,52.2254253,0.1252558,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0
+Bryon Square,52.1857277,0.1183396,1,1,1,1,1,1,1,1,1,0,0,1,1,0,0,0
+Campkin Road,52.2289116,0.0981993,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0
+Castle Park,52.2132305,0.1105992,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0
+Cherry Hinton Hall,52.1863647,0.1632165,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+Chesterton Road,52.214544,0.1245356,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0
+Church Street: Chesterton recreation ground,52.2165789,0.1383323,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0
+Coldham's Lane,52.2000817,0.1574667,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0
+Colville Road,52.186972,0.1748758,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0
+Fawcett Road,52.168938,0.120738,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1
+George IV Street,52.1975622,0.1256626,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0
+Glebe Farm Drive,52.1653804,0.1087127,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1
+Gwydir Street,52.2023297,0.1371218,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Hauxton Road: Waitrose,52.1715792,0.1086955,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0
+Hawkey Road,52.1752877,0.1192327,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1
+Hills Road Sports Centre,52.1873267,0.1327518,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+Howard Road: Barnwell Baptist Church,52.2161688,0.1607842,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0
+Kilmaine Close: Outside Daily Bread,52.23335,0.1327378,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0
+Lammas Land,52.1968464,0.1110602,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+Newmarket Road: Tesco,52.2114353,0.141389,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0
+Northfield Avenue: The Ship public house,52.2309454,0.1266043,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0
+Osprey Drive,52.1695268,0.1026558,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1
+Pool Way: Abbey pool complex,52.2092068,0.1533958,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0
+St Catherine's Road: Meadows Community Centre,52.2301309,0.1163069,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0
+Stretten Avenue,52.2187047,0.115395,1,1,1,1,1,1,1,1,1,0,0,1,1,0,0,0
+Wulfstan Way,52.1828951,0.1509467,1,1,1,1,1,1,1,1,1,0,0,1,1,0,0,0
