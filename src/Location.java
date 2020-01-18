@@ -18,6 +18,7 @@ public class Location {
     private static final String PLACES_BASE_URL = "http://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/suggest" + "?text=%s" + "&f=json";
 
     private String GeocodeSearchUrl;
+    private String input;
 
     public Location(double longitude, double latitude) {
         this.longitude = longitude;
@@ -25,7 +26,7 @@ public class Location {
     }
 
     public Location(String input) {
-
+        this.input = input;
         this.GeocodeSearchUrl = String.format(GEOCODE_BASE_URL, GEOCODE_TOKEN, input);
 
         try {
@@ -61,5 +62,12 @@ public class Location {
 
     public double getDistanceTo(Location loc) {
         return Math.sqrt(Math.pow(loc.longitude - longitude, 2) + Math.pow(loc.latitude - latitude, 2));
+    }
+
+    @Override
+    public String toString() {
+        return "input=" + input +
+                ", longitude=" + longitude +
+                ", latitude=" + latitude;
     }
 }

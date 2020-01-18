@@ -66,7 +66,6 @@ public class Banks {
 
         for (Bank bank : validBanks) {
             double dist = bank.getLocation().getDistanceTo(userLocation);
-            System.out.println(bank.getName() + "\t" + dist);
             if (dist < minDist) {
                 minDist = dist;
                 closestBank = bank;
@@ -79,10 +78,9 @@ public class Banks {
     public static void main(String[] args) {
         String csvFile = "cam_data.csv";
         Banks banks = new Banks(csvFile);
-        Location userLocation = new Location("Pembroke College Cambridge");
-        System.out.println(userLocation.getLatitude());
-        System.out.println(userLocation.getLongitude());
-        Bank closestBank = banks.queryMaterial("glass", userLocation);
+        Location userLocation = new Location("Botanic gardens Cambridge");
+        System.out.println(userLocation);
+        Bank closestBank = banks.queryMaterial("shoes", userLocation);
         if (closestBank != null) {
             System.out.println(closestBank.getName());
         } else {
