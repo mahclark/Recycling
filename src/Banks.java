@@ -50,6 +50,16 @@ public class Banks {
         }
     }
 
+    private static Map<String, String> itemMaterials = Map.of(
+            "paper cup", "paper",
+            "pizza box", "cardboard",
+            "metal water bottle", "metal"
+    );
+
+    public static String getMaterialOfItem(String item) {
+        return itemMaterials.get(item.toLowerCase());
+    }
+
     public Bank queryMaterial(String material, Location userLocation) { //returns null if cannot recycle
         if (!materials.contains(material.toLowerCase())) {
             System.err.println("Material " + material + " not found in recycling data");
@@ -80,7 +90,7 @@ public class Banks {
         Banks banks = new Banks(csvFile);
         Location userLocation = new Location("Botanic gardens Cambridge");
         System.out.println(userLocation);
-        Bank closestBank = banks.queryMaterial("shoes", userLocation);
+        Bank closestBank = banks.queryMaterial(getMaterialOfItem("metal water bottle"), userLocation);
         if (closestBank != null) {
             System.out.println(closestBank.getName());
         } else {
